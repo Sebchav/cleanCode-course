@@ -5,9 +5,9 @@
     // includes? arrays?
     function isRedFruit( fruit: string ): boolean {
         
-        const frutasRojas = ["manzana", "cereza", "ciruela"];
+        const frutasRojas: string[] = ["manzana", "cereza", "ciruela"];
 
-        return (frutasRojas.includes(fruit)) ? true : false;
+        return (frutasRojas.includes(fruit));
         
     }
 
